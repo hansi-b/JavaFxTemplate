@@ -13,4 +13,4 @@ An executable `appFx` should be created in `fxApp/build/jpackage/appFx/bin/`
 
 ## Limitations
 
-- The main class cannot be run from within Eclipse (seems like [this bug](https://github.com/eclipse/buildship/issues/658))
+- Works with the command line and in IntelliJ, but not in Eclipse (most likely related to [this problem](https://github.com/eclipse/buildship/issues/658)).
