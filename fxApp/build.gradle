@@ -1,0 +1,11 @@
+plugins {
+id 'org.hansib.java-common'
+    id 'application'}
+
+dependencies {
+    implementation project(':utilities')
+}
+
+application {
+    mainClass = 'javafx_app.app.App'
+}
