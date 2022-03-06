@@ -19,3 +19,10 @@ java {
 		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
+
+plugins.withType(JavaPlugin).configureEach {
+	java {
+		modularity.inferModulePath = true
+	}
+}
+
