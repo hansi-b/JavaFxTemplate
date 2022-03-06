@@ -5,9 +5,9 @@ Contains a minimal example "hello world" application which opens a window with a
 
 ## Usage
 
-To create an executable bundle, this should suffice:
+This call should suffice to create an executable bundle:
 
-`./gradlew jpackageImage`
+`./gradlew :fxApp:jpackageImage`
 
 An executable `appFx` should be created in `fxApp/build/jpackage/appFx/bin/`
 
