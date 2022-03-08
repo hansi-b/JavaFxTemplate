@@ -14,3 +14,4 @@ An executable `appFx` should be created in `fxApp/build/jpackage/appFx/bin/`
 ## Limitations
 
 - Works with the command line and in IntelliJ, but not in Eclipse. (Most likely related to [this problem](https://github.com/eclipse/buildship/issues/658). It seems to work in Eclipse if you remove the `utilities` sub-project and dependency.)
+- Tests with Spock may not work entirely due to [this issue](https://github.com/spockframework/spock/issues/1227).
