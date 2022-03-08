@@ -1,6 +1,6 @@
 package javafx_app.app;
 
-class MessageUtils {
+public class MessageUtils {
 	public static String getMessage() {
 		return "Hello    World!";
 	}
